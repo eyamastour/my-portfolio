@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
+      title: "Healthy Bite",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      img: "/HealthyBite.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/eyamastour?tab=repositories",
     },
     {
       id: 2,
@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Full Stack Developer Intern ",
+      desc: "Developed a web application for organizing personalized tourist circuits, optimizing code and database schemas to enhance performance and reliability.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Full Stack Developer ",
+      desc: "Worked on multiple projects, developing  RESTful APIs with Node.js and Express.js, while also designing and implementing user-centric interfaces using Figma and React.js.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Full Stack Developer Intern   ",
+      desc: " Designed and developed an interactive e-learning forum, integrating a MongoDB database and front-end features using React.js.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "UI/UX Designer – Freelance",
+      desc: "Designed and prototyped user interfaces using Figma for highly customized projects.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
