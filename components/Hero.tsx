@@ -2,7 +2,9 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaFileDownload, FaLocationArrow } from 'react-icons/fa'
+import { MdDownload } from 'react-icons/md'
+import { FaDownload } from 'react-icons/fa6'
 
 const Hero = () => {
     return (
@@ -34,12 +36,11 @@ const Hero = () => {
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         Hi! I&rsquo;m Eya Mastour, a  Web Developer.
                     </p>
-                    <a href="#about">
+                    <a href="/EyaMastourCV.pdf" download="Eya-Mastour-CV.pdf">
                         <MagicButton 
-                        title="Show my work"
-                        icon={<FaLocationArrow /> }
+                        title="Get My Resume "
+                        icon={<FaDownload /> }
                         position='right'
-                        
                         />
                     </a>
                 </div>
