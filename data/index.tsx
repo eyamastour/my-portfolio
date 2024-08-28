@@ -72,6 +72,21 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Training Center Application",
+      des: "Enhance your learning journey with Training Center. Access courses, track progress, and grow your skills effortlessly.",
+      img: "/training.png",
+      iconLists: ["/react.svg", "/node.svg", "/js.svg", "/fg.svg", "/mg.svg"]
+    },
+    {
+      id: 2,
+      title: "Responsive Modern UI/UX Website for Travel",
+      des: "A Responsive Modern UI/UX Website for Travel features a sleek and user-friendly design optimized for all devices...",
+      img: "/image.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/tail.svg", "/gsap.svg"],
+      link: "https://github.com/eyamastour/Travel-App",
+    },
+    {
+      id: 3,
       title: "Healthy Bite",
       des: "Discover the power of personalized nutrition with Healthy Bite your ultimate app for tailored meal plans and dietary tracking. This intuitive tool helps you achieve your health goals by customizing meal recommendations and tracking your progress effortlessly.",
       img: "/HealthyBite.png",
@@ -79,27 +94,12 @@ export const navItems = [
       link: "https://github.com/eyamastour?tab=repositories",
     },
     {
-      id: 2,
-      title: "Training Center Application",
-      des: "Enhance your learning journey with Training Center. Access courses, track progress, and grow your skills effortlessly.",
-      img: "/training.png",
-      iconLists: ["/react.svg", "/node.svg", "/js.svg", "/fg.svg", "/mg.svg"]
-    },
-    {
-      id: 3,
+      id: 4,
       title: "She Said Yes - Web Application",
       des: "Streamline wedding planning with She Said Yes. Effortlessly organize and manage your events with our professional platform.",
       img: "/SSY.png",
       iconLists: ["/sym.svg", "/php.svg", "/mysql.svg", "/bst.svg"],
       link: "https://github.com/eyamastour/SheSaidYes",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
     },
   ];
   
