@@ -36,7 +36,7 @@ const Hero = () => {
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         Hi! I&rsquo;m Eya Mastour, a  Web Developer.
                     </p>
-                    <a href="/Resume-EYA-MASTOUR.pdf" download="Eya-Mastour-CV.pdf">
+                    <a href="/CV-EYA-MASTOUR.pdf" download="Eya-Mastour-CV.pdf">
                         <MagicButton 
                         title="Get My Resume "
                         icon={<FaDownload /> }
